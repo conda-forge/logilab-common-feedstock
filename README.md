@@ -11,6 +11,18 @@ Summary: collection of low-level Python packages and modules used by Logilab pro
 
 
 
+Current build status
+====================
+
+Linux: [![Circle CI](https://circleci.com/gh/conda-forge/logilab-common-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/logilab-common-feedstock)
+OSX: [![TravisCI](https://travis-ci.org/conda-forge/logilab-common-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/logilab-common-feedstock)
+Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/logilab-common-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/logilab-common-feedstock/branch/master)
+
+Current release info
+====================
+Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/logilab-common/badges/version.svg)](https://anaconda.org/conda-forge/logilab-common)
+Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/logilab-common/badges/downloads.svg)](https://anaconda.org/conda-forge/logilab-common)
+
 Installing logilab-common
 =========================
 
@@ -31,7 +43,6 @@ It is possible to list all of the versions of `logilab-common` available on your
 ```
 conda search logilab-common --channel conda-forge
 ```
-
 
 
 About conda-forge
@@ -67,18 +78,6 @@ Terminology
 
 **conda-forge** - the place where the feedstock and smithy live and work to
                   produce the finished article (built conda distributions)
-
-Current build status
-====================
-
-Linux: [![Circle CI](https://circleci.com/gh/conda-forge/logilab-common-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/logilab-common-feedstock)
-OSX: [![TravisCI](https://travis-ci.org/conda-forge/logilab-common-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/logilab-common-feedstock)
-Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/logilab-common-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/logilab-common-feedstock/branch/master)
-
-Current release info
-====================
-Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/logilab-common/badges/version.svg)](https://anaconda.org/conda-forge/logilab-common)
-Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/logilab-common/badges/downloads.svg)](https://anaconda.org/conda-forge/logilab-common)
 
 
 Updating logilab-common-feedstock
