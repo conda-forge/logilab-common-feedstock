@@ -14,14 +14,16 @@ Summary: collection of low-level Python packages and modules used by Logilab pro
 Current build status
 ====================
 
-Linux: [![Circle CI](https://circleci.com/gh/conda-forge/logilab-common-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/logilab-common-feedstock)
-OSX: [![TravisCI](https://travis-ci.org/conda-forge/logilab-common-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/logilab-common-feedstock)
-Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/logilab-common-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/logilab-common-feedstock/branch/master)
+[![Linux](https://img.shields.io/circleci/project/github/conda-forge/logilab-common-feedstock/master.svg?label=Linux)](https://circleci.com/gh/conda-forge/logilab-common-feedstock)
+[![OSX](https://img.shields.io/travis/conda-forge/logilab-common-feedstock/master.svg?label=macOS)](https://travis-ci.org/conda-forge/logilab-common-feedstock)
+[![Windows](https://img.shields.io/appveyor/ci/conda-forge/logilab-common-feedstock/master.svg?label=Windows)](https://ci.appveyor.com/project/conda-forge/logilab-common-feedstock/branch/master)
 
 Current release info
 ====================
-Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/logilab-common/badges/version.svg)](https://anaconda.org/conda-forge/logilab-common)
-Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/logilab-common/badges/downloads.svg)](https://anaconda.org/conda-forge/logilab-common)
+
+| Name | Downloads | Version | Platforms |
+| --- | --- | --- | --- |
+| [![Conda Recipe](https://img.shields.io/badge/recipe-logilab--common-green.svg)](https://anaconda.org/conda-forge/logilab-common) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/logilab-common.svg)](https://anaconda.org/conda-forge/logilab-common) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/logilab-common.svg)](https://anaconda.org/conda-forge/logilab-common) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/logilab-common.svg)](https://anaconda.org/conda-forge/logilab-common) |
 
 Installing logilab-common
 =========================
@@ -66,6 +68,7 @@ To manage the continuous integration and simplify feedstock maintenance
 Using the ``conda-forge.yml`` within this repository, it is possible to re-render all of
 this feedstock's supporting files (e.g. the CI configuration files) with ``conda smithy rerender``.
 
+For more information please check the [conda-forge documentation](https://conda-forge.org/docs/).
 
 Terminology
 ===========
