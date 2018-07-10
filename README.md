@@ -14,9 +14,8 @@ Summary: collection of low-level Python packages and modules used by Logilab pro
 Current build status
 ====================
 
-[![Linux](https://img.shields.io/circleci/project/github/conda-forge/logilab-common-feedstock/master.svg?label=Linux)](https://circleci.com/gh/conda-forge/logilab-common-feedstock)
-[![OSX](https://img.shields.io/travis/conda-forge/logilab-common-feedstock/master.svg?label=macOS)](https://travis-ci.org/conda-forge/logilab-common-feedstock)
-[![Windows](https://img.shields.io/appveyor/ci/conda-forge/logilab-common-feedstock/master.svg?label=Windows)](https://ci.appveyor.com/project/conda-forge/logilab-common-feedstock/branch/master)
+All platforms:
+[![noarch](https://img.shields.io/circleci/project/github/conda-forge/logilab-common-feedstock/master.svg?label=noarch)](https://circleci.com/gh/conda-forge/logilab-common-feedstock)
 
 Current release info
 ====================
