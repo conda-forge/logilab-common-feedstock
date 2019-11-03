@@ -1,6 +1,6 @@
 {% set name = "logilab-common" %}
-{% set version = "1.4.2" %}
-{% set sha256 = "cdda9ed0deca7c68f87f7a404ad742e47aaa1ca5956d12988236a5ec3bda13a0" %}
+{% set version = "1.4.3" %}
+{% set sha256 = "ed94546f033d90650a3432a6786b1ba32d3c207f47fe8df58b195746655c88ff" %}
 
 package:
   name: {{ name }}
@@ -12,14 +12,14 @@ source:
   sha256: {{ sha256 }}
 
 build:
-  number: 1000
+  number: 0
   preserve_egg_dir: True
-  script: python setup.py install --single-version-externally-managed --record=record.txt
+  script: "{{ PYTHON }} -m pip install . -vv"
 
 requirements:
   build:
     - python
-    - setuptools
+    - pip
 
   run:
     - python
@@ -35,6 +35,9 @@ test:
 about:
   home: http://www.logilab.org/project/logilab-common
   license: LGPL 2.1
+  license_file:
+    - COPYING
+    - COPYING.LESSER
   summary: 'collection of low-level Python packages and modules used by Logilab projects'
 
 extra:
