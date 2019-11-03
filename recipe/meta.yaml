@@ -35,6 +35,9 @@ test:
 about:
   home: http://www.logilab.org/project/logilab-common
   license: LGPL 2.1
+  license_file:
+    - COPYING
+    - COPYING.LESSER
   summary: 'collection of low-level Python packages and modules used by Logilab projects'
 
 extra:
