@@ -1,6 +1,6 @@
 {% set name = "logilab-common" %}
-{% set version = "1.4.3" %}
-{% set sha256 = "ed94546f033d90650a3432a6786b1ba32d3c207f47fe8df58b195746655c88ff" %}
+{% set version = "1.5.2" %}
+{% set sha256 = "8d6882e9d29e7fa93c1d7deda4382e43f09707f050b755a39ef2445595fd40d8" %}
 
 package:
   name: {{ name }}
