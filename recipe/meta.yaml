@@ -1,5 +1,5 @@
 {% set name = "logilab-common" %}
-{% set version = "1.7.3" %}
+{% set version = "1.8.2" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/logilab-common-{{ version }}.tar.gz
-  sha256: ac08bd39f76b8e4834a2c2d32919472297550f12da59eed332124a74dfb0a40b
+  sha256: 3c1bda5e7750660736dee715a60e464a27ace6d6177cf5596cfd0e8aaf5b7326
 
 build:
   number: 0
